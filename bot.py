@@ -5,12 +5,15 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import csv
 from datetime import datetime
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 # WARNING: Apple Music's web UI is fragile and may change element IDs/classes at any time
 class AppleDeleteBot:
     def __init__(self):
-        driverPath = './chromedriver/chromedriver'
-        binaryPath = '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'
+        driverPath = os.getenv('PATH_TO_CHROME_DRIVER')
+        binaryPath = os.getenv('PATH_TO_CHROME_BINARY')
 
         self.driver_options = webdriver.ChromeOptions()
         self.driver_options.binary_location = binaryPath
