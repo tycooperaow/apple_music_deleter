@@ -5,7 +5,7 @@ A Selenium-based bot to automatically delete songs from your Apple Music library
 ## Video Tutorial
 Watch a video tutorial on how to use this bot:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7bDLTM5qMOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Tutorial Video](https://img.youtube.com/vi/7bDLTM5qMOE/0.jpg)](https://www.youtube.com/watch?v=7bDLTM5qMOE)
 
 ## Features
 - Deletes all visible songs from your Apple Music library page in bulk
